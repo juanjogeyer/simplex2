@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simplex Solver</title>
+    
+    <!-- Fuentes de Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Tu hoja de estilos personalizada -->
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body class="page-container">
+
+    <!-- Contenedor principal del solver -->
+    <div class="solver-container">
+        <h1 class="solver-title">Simplex Solver</h1>
+
+        <!-- Sección para definir el problema -->
+        <div class="problem-section">
+            <h2 class="section-title">Definir Problema</h2>
+            <div class="input-row">
+                <label for="numVariables" class="input-label">Variables:</label>
+                <input type="number" id="numVariables" value="2" min="1" class="input-field variable-input">
+            </div>
+            <div class="button-row">
+                <!-- Por defecto, Max está activo (primary) y Min inactivo (secondary) -->
+                <button id="btnMax" class="btn btn-primary">Maximizar</button>
+                <button id="btnMin" class="btn btn-secondary">Minimizar</button>
+            </div>
+        </div>
+
+        <!-- Sección para la función objetivo -->
+        <div class="problem-section">
+            <h2 class="section-title">Función Objetivo</h2>
+            <div id="funcionObjetivo" class="objective-function-row">
+                <!-- El contenido se genera dinámicamente -->
+            </div>
+        </div>
+
+        <!-- Sección para las restricciones -->
+        <div class="problem-section">
+            <h2 class="section-title">Restricciones</h2>
+            <!-- El contenedor de restricciones ahora aplica estilos a sus hijos -->
+            <div id="restricciones" class="constraints-container">
+                <!-- Las restricciones se generan dinámicamente -->
+                <button id="btnAgregar" class="btn btn-success btn-full">Agregar Restricción</button>
+            </div>
+        </div>
+
+        <!-- Sección para resolver -->
+        <div class="resolver-section">
+            <button id="btnResolver" class="btn btn-primary btn-full btn-large">Resolver</button>
+        </div>
+
+        <!-- Contenedor de resultados (inicialmente oculto con la clase .hidden) -->
+        <div id="resultado" class="resultado-container hidden">
+            <!-- El contenido se genera dinámicamente -->
+        </div>
+        <div id="accionesExtra" class="resolver-section hidden">
+            <button id="btnVerGrafico" class="btn btn-primary btn-full btn-large" style="display:none;">Ver Gráfico</button>
+        </div>
+    </div>
+
+    <script src="static/js/app.js"></script>
+</body>
+</html>
