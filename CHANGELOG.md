@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/juanjogeyer/simplex2/compare/v1.2.0...v1.3.0) (2025-11-12)
+
+
+### Features
+
+* enable automatic merging in release-please workflow ([008c1e0](https://github.com/juanjogeyer/simplex2/commit/008c1e0283cddc25a172168fd87543f2f390a1c1))
+
 ## [1.2.0](https://github.com/juanjogeyer/simplex2/compare/v1.1.0...v1.2.0) (2025-11-12)
 
 
