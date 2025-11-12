@@ -27,7 +27,7 @@ jobs:
           pip install -e .
 
       - name: Run tests
-        run: pytest simplex/test
+        run: pytest test/
 
   release-please:
     needs: validate
