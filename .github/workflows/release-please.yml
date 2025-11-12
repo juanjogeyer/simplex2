@@ -27,7 +27,7 @@ jobs:
           pip install -e .
 
       - name: Run tests
-        run: pytest test/
+        run: pytest .
 
   release-please:
     needs: validate
