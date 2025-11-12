@@ -28,7 +28,7 @@ jobs:
           pip install pytest==8.4.1
 
       - name: Run tests
-        run: pytest
+        run: pytest -v --capture=tee-sys
 
   release-please:
     needs: validate
