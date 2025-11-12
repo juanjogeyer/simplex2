@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/juanjogeyer/simplex2/compare/v1.1.0...v1.2.0) (2025-11-12)
+
+
+### Features
+
+* add HTML and JavaScript for Simplex Solver tables interface ([f8b0211](https://github.com/juanjogeyer/simplex2/commit/f8b02112871516ef4615a16858c8cfc4813c0124))
+* add initial implementation of Simplex Solver with HTML, CSS, and JavaScript ([0c974b6](https://github.com/juanjogeyer/simplex2/commit/0c974b661130ca5051642943a6a8b81e62e0276d))
+
 ## [1.1.0](https://github.com/juanjogeyer/simplex2/compare/v1.0.0...v1.1.0) (2025-11-12)
 
 
