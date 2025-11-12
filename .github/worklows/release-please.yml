@@ -24,8 +24,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install .
-          pip install pytest==8.4.1
+          pip install fastapi[standard] matplotlib pytest==8.4.1
 
       - name: Run tests
         run: pytest test/
