@@ -1,6 +1,16 @@
 # Changelog
 
 
+## [1.5.1](https://github.com/juanjogeyer/simplex2/compare/v1.5.0...v1.5.1) (2025-11-13)
+
+
+### Bug Fixes
+
+* ensure issues permission is correctly set in release workflow ([60ea185](https://github.com/juanjogeyer/simplex2/commit/60ea185052800c76a37de52906bfaa87b2fa892a))
+* remove unnecessary steps from release workflow and update prueba1.py ([3c02509](https://github.com/juanjogeyer/simplex2/commit/3c0250953b830ef5230a2ca2aa396c3899926020))
+* update actions versions in release workflow ([d6ec601](https://github.com/juanjogeyer/simplex2/commit/d6ec6013138dc95b001927dc82ede4258d866c96))
+* update token in release workflow to use RELEASE_PLEASE_TOKEN ([b7125b5](https://github.com/juanjogeyer/simplex2/commit/b7125b5a58decfe0ca63ebc6a16d46f5edd72d3e))
+
 ## [1.4.2](https://github.com/juanjogeyer/simplex2/compare/v1.4.1...v1.4.2) (2025-11-13)
 
 
