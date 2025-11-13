@@ -1,7 +1,9 @@
 name: Publish Docker Image
 on:
-  release:
-    types: [published] # Solo cuando se publica (no pre-releases, etc)
+  push:
+    tags:
+      - 'v[0-9]+.[0-9]+.[0-9]+'    # Para v1.2.3
+      - 'v[0-9]+.[0-9]+.[0-9]+-*' # Solo cuando se publica (no pre-releases, etc)
 
 jobs:
   build-and-push:
