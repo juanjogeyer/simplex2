@@ -42,6 +42,10 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: simple
 
+      - name: Checkout repository
+        if: ${{ steps.release.outputs.pr != '' }}
+        uses: actions/checkout@v4
+
       - name: Auto-merge Release PR (via GitHub CLI)
         if: ${{ steps.release.outputs.pr != '' && contains(steps.release.outputs.pr, 'release-please--branches--main') }}
         run: |
