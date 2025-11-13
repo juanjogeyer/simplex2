@@ -43,8 +43,8 @@ jobs:
           release-type: simple
 
       - name: Auto-merge Release PR
-        if: ${{ steps.release.outputs.release_created != 'true' && steps.release.outputs.pr != '' }}
-        uses: peter-evans/enable-pull-request-merge@v3
+        if: ${{ steps.release.outputs.pr != '' }}
+        uses: peter-evans/auto-merge@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           pull-request-number: ${{ steps.release.outputs.pr }}
