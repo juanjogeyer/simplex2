@@ -1,6 +1,13 @@
 # Changelog
 
 
+## [1.8.2](https://github.com/juanjogeyer/simplex2/compare/v1.8.1...v1.8.2) (2025-11-13)
+
+
+### Bug Fixes
+
+* update FastAPI port from 8000 to 5000 in Dockerfile ([575da45](https://github.com/juanjogeyer/simplex2/commit/575da452c5334e0a3abd69bbe626a58aba50f05b))
+
 ## [1.8.1](https://github.com/juanjogeyer/simplex2/compare/v1.8.0...v1.8.1) (2025-11-13)
 
 
