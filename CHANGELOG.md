@@ -1,6 +1,13 @@
 # Changelog
 
 
+## [1.7.0](https://github.com/juanjogeyer/simplex2/compare/v1.6.0...v1.7.0) (2025-11-13)
+
+
+### Features
+
+* add GitHub Actions workflow for publishing Docker images ([e25fe5e](https://github.com/juanjogeyer/simplex2/commit/e25fe5ed9707c4b22296e5321124e9211956a8ee))
+
 ## [1.6.0](https://github.com/juanjogeyer/simplex2/compare/v1.5.1...v1.6.0) (2025-11-13)
 
 
