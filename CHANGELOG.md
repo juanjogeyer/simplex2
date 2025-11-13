@@ -1,6 +1,19 @@
 # Changelog
 
 
+## [1.8.0](https://github.com/juanjogeyer/simplex2/compare/v1.7.0...v1.8.0) (2025-11-13)
+
+
+### Features
+
+* add pytest configuration and setuptools package finding options ([98c9f82](https://github.com/juanjogeyer/simplex2/commit/98c9f82de90ff20df4fc106a85f2f2619a66894b))
+
+
+### Bug Fixes
+
+* update Dockerfile to expose port 8000 and modify CMD for uvicorn ([b26af04](https://github.com/juanjogeyer/simplex2/commit/b26af049003a47f7afb8252071556e717c92b8bd))
+* update release-please workflow to use GITHUB_TOKEN instead of RELEASE_PLEASE_TOKEN ([58e0249](https://github.com/juanjogeyer/simplex2/commit/58e0249f71f293ab3d7316cc2bd8c5f64b7eeb6d))
+
 ## [1.7.0](https://github.com/juanjogeyer/simplex2/compare/v1.6.0...v1.7.0) (2025-11-13)
 
 
