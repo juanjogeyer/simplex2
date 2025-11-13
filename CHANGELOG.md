@@ -1,6 +1,13 @@
 # Changelog
 
 
+## [1.9.1](https://github.com/juanjogeyer/simplex2/compare/v1.9.0...v1.9.1) (2025-11-13)
+
+
+### Bug Fixes
+
+* update trigger for Docker image publishing to use push events with version tags ([901342b](https://github.com/juanjogeyer/simplex2/commit/901342b3581fe1248e6a3ca1aff029574a098bff))
+
 ## [1.9.0](https://github.com/juanjogeyer/simplex2/compare/v1.8.2...v1.9.0) (2025-11-13)
 
 
