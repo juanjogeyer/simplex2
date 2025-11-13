@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/juanjogeyer/simplex2/compare/v1.4.0...v1.4.1) (2025-11-13)
+
+
+### Bug Fixes
+
+* refine auto-merge condition for Release PRs in workflow ([6a2ae62](https://github.com/juanjogeyer/simplex2/commit/6a2ae62988e4831ca3fa1b271b5f06126f56d85f))
+
 ## [1.4.0](https://github.com/juanjogeyer/simplex2/compare/v1.3.0...v1.4.0) (2025-11-13)
 
 
