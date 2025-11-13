@@ -28,7 +28,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            juanjogeyer/simplex
+            juanjogeyer/simplex2
           tags: |
             # Esto crea dos tags:
             type=semver,pattern={{version}}
