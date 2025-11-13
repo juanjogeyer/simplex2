@@ -43,9 +43,10 @@ jobs:
           release-type: simple
 
       - name: Auto-merge Release PR (via GitHub CLI)
-        if: ${{ steps.release.outputs.pr != '' }}
+        if: ${{ steps.release.outputs.pr != '' && contains(steps.release.outputs.pr, 'release-please--branches--main') }}
         run: |
-          echo "Merging PR #${{ steps.release.outputs.pr }}..."
-          gh pr merge ${{ steps.release.outputs.pr }} --squash --admin --delete-branch
+          pr_number=$(echo '${{ steps.release.outputs.pr }}' | jq -r '.number')
+          echo "Merging Release PR #$pr_number..."
+          gh pr merge $pr_number --squash --admin --delete-branch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
