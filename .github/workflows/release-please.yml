@@ -42,10 +42,10 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: simple
 
-      - name: Auto-merge Release PR
+      - name: Auto-merge Release PR (via GitHub CLI)
         if: ${{ steps.release.outputs.pr != '' }}
-        uses: peter-evans/auto-merge@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          pull-request-number: ${{ steps.release.outputs.pr }}
-          merge-method: squash
+        run: |
+          echo "Merging PR #${{ steps.release.outputs.pr }}..."
+          gh pr merge ${{ steps.release.outputs.pr }} --squash --admin --delete-branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
