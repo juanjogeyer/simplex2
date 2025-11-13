@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/juanjogeyer/simplex2/compare/v1.4.2...v1.5.0) (2025-11-13)
+
+
+### Features
+
+* add new file prueba1.py ([6c192cb](https://github.com/juanjogeyer/simplex2/commit/6c192cb27bc251d874039ecfa3389decf08d5858))
+
 ## [1.4.2](https://github.com/juanjogeyer/simplex2/compare/v1.4.1...v1.4.2) (2025-11-13)
 
 
