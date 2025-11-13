@@ -1,6 +1,13 @@
 # Changelog
 
 
+## [1.9.0](https://github.com/juanjogeyer/simplex2/compare/v1.8.2...v1.9.0) (2025-11-13)
+
+
+### Features
+
+* add missing comment line for clarity in prueba1.py ([f75312b](https://github.com/juanjogeyer/simplex2/commit/f75312bdba01702f4e4032206afcd0ed72166c10))
+
 ## [1.8.2](https://github.com/juanjogeyer/simplex2/compare/v1.8.1...v1.8.2) (2025-11-13)
 
 
