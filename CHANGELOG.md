@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.4.0](https://github.com/juanjogeyer/simplex2/compare/v1.3.0...v1.4.0) (2025-11-13)
+
+
+### Features
+
+* add auto-merge functionality for Release PRs in workflow ([fa95ee3](https://github.com/juanjogeyer/simplex2/commit/fa95ee31d56b9d9fe4396b684f5566e0a7ff5d25))
+
+
+### Bug Fixes
+
+* replace auto-merge action with GitHub CLI command for Release PRs ([cfffffd](https://github.com/juanjogeyer/simplex2/commit/cfffffddc1615d5824605860147e49b735853f63))
+* simplify auto-merge condition for Release PRs in workflow ([a0307e9](https://github.com/juanjogeyer/simplex2/commit/a0307e9bcbf2171bdc8c6a61a697b141cb44bba3))
+* update auto-merge action to version 4 in release workflow ([6e4b9a2](https://github.com/juanjogeyer/simplex2/commit/6e4b9a24687f5a89e5e2c7b6c7975bd6cb6a068b))
+
 ## [1.3.0](https://github.com/juanjogeyer/simplex2/compare/v1.2.0...v1.3.0) (2025-11-12)
 
 
