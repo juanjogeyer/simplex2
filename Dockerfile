@@ -17,7 +17,7 @@ RUN uv pip install --system --no-cache-dir --requirements pyproject.toml
 COPY . .
 
 # Expone el puerto FastAPI
-EXPOSE 5000
+EXPOSE 8000
 
 # Comando de ejecución
-CMD ["uv", "run", "python", "main.py"]
+CMD ["uv", "run", "uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
