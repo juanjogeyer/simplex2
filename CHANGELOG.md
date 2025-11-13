@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.2](https://github.com/juanjogeyer/simplex2/compare/v1.4.1...v1.4.2) (2025-11-13)
+
+
+### Bug Fixes
+
+* add repository checkout step before auto-merging Release PR ([4d7aa0f](https://github.com/juanjogeyer/simplex2/commit/4d7aa0f525c7222901bcb92ca0424cc5e57de5bb))
+
 ## [1.4.1](https://github.com/juanjogeyer/simplex2/compare/v1.4.0...v1.4.1) (2025-11-13)
 
 
