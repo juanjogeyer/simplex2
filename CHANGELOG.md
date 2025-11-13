@@ -1,6 +1,13 @@
 # Changelog
 
 
+## [1.8.1](https://github.com/juanjogeyer/simplex2/compare/v1.8.0...v1.8.1) (2025-11-13)
+
+
+### Bug Fixes
+
+* update Docker image name to simplex2 in workflow configuration ([c89005a](https://github.com/juanjogeyer/simplex2/commit/c89005a40ec30a802804fe5e89b8c03ff334cbc8))
+
 ## [1.8.0](https://github.com/juanjogeyer/simplex2/compare/v1.7.0...v1.8.0) (2025-11-13)
 
 
