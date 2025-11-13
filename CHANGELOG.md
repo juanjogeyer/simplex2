@@ -1,6 +1,13 @@
 # Changelog
 
 
+## [1.9.2](https://github.com/juanjogeyer/simplex2/compare/v1.9.1...v1.9.2) (2025-11-13)
+
+
+### Bug Fixes
+
+* add additional comment for clarity in prueba1.py ([6288a3b](https://github.com/juanjogeyer/simplex2/commit/6288a3b599d45f8d809372054ca237f44ea43ae8))
+
 ## [1.9.1](https://github.com/juanjogeyer/simplex2/compare/v1.9.0...v1.9.1) (2025-11-13)
 
 
