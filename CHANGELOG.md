@@ -1,6 +1,13 @@
 # Changelog
 
 
+## [1.6.0](https://github.com/juanjogeyer/simplex2/compare/v1.5.1...v1.6.0) (2025-11-13)
+
+
+### Features
+
+* add Dockerfile for Python FastAPI application ([4eced63](https://github.com/juanjogeyer/simplex2/commit/4eced63007161c28e9912dd8a3b5a3595b074e1a))
+
 ## [1.5.1](https://github.com/juanjogeyer/simplex2/compare/v1.5.0...v1.5.1) (2025-11-13)
 
 
